@@ -44,12 +44,12 @@ const tags: Tag[] = [
         verified: (guild, channel, user) => user.isVerifiedBot()
     },
     {
-        text: "ADMIN",
+        text: "OWNER",
         backgroundColor: rawColors.RED_560,
         permissions: ["ADMINISTRATOR"]
     },
     {
-        text: "MANAGER",
+        text: "ADMIN",
         backgroundColor: rawColors.GREEN_345,
         permissions: ["MANAGE_GUILD", "MANAGE_CHANNELS", "MANAGE_ROLES", "MANAGE_WEBHOOKS"]
     },
